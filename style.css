@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css?family=Heebo&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #000;
+  --secondary-color: #fff;
+  --ternary-color: #e74c3c;
+}
+
+html {
+  transition: all 0.5s ease-in;
+}
+
+html.dark {
+  --primary-color: #fff;
+  --secondary-color: #333;
+}
+
+html.dark {
+  background-color: #111;
+  color: var(--primary-color);
+}
+
+html.special {
+  --primary-color: #ceafb4;
+  --secondary-color: #29000a;
+  --ternary-color: #eb1e2b;
+}
+
+html.special {
+  background-color: #111;
+  background-image: url('https://images7.alphacoders.com/584/thumb-1920-584686.png');
+  background-position: center center;
+  color: var(--primary-color);
+}
+
+body {
+  font-family: 'Heebo', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+.toggle {
+  cursor: pointer;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  border: 0;
+  border-radius: 4px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 100px;
+}
+
+.toggle:focus {
+  outline: none;
+}
+
+.secret {
+  cursor: pointer;
+  background-color: var(--primary-color);
+  color: var(--ternary-color);
+  border: 0;
+  border-radius: 4px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 100px;
+  background: linear-gradient(to right, var(--secondary-color) 20%, var(--primary-color) 50%);
+  background-size: 200% 100%;
+  background-position:right bottom;
+  transition:all 500ms ease-in;
+}
+
+.secret:hover {
+  background-position:left bottom;
+  transition: all 500ms ease-in;
+}
+
+.clock-container {
+  position: absolute;
+  top: 210px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.clock {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  /* background-color: #f0f0f0; */
+}
+
+.needle {
+  background-color: var(--primary-color);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 65px;
+  width: 3px;
+  transform-origin: bottom center;
+  /* transition: all 0.5s ease-in; */
+}
+
+.needle.hour {
+  transform: translate(-50%, -100%) rotate(0deg);
+}
+
+.needle.minute {
+  transform: translate(-50%, -100%) rotate(0deg);
+  height: 100px;
+}
+
+.needle.second {
+  transform: translate(-50%, -100%) rotate(0deg);
+  height: 100px;
+  background-color: var(--ternary-color);
+}
+
+.center-point {
+  background-color: var(--ternary-color);
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  /* absolute + top + left only makes the edge of this colored div square thing centered. 
+    Use translate to change the 'origin point' */
+  transform: translate(-50%, -50%); 
+  border-radius: 50%;
+}
+
+.center-point::after {
+  content: '';
+  background-color: var(--primary-color);
+  width: 5px;
+  height: 5px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+  border-radius: 50%;
+  transition: all 0.5s ease-in;
+}
+
+.time {
+  font-size: 60px;
+}
+
+.date {
+  color: #aaa;
+  font-size: 14px;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+}
+
+.date .circle {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  border-radius: 50%;
+  height: 18px;
+  width: 18px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 18px;
+  transition: all 0.5s ease-in;
+  font-size: 12px;
+}
