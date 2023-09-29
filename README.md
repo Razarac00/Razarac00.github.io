@@ -7,6 +7,7 @@ I'm a mid-level software engineer who is well known for incredible attention to 
 ## Work History
 
 ### Veracode, Remote TX, USA and Remote ON, CAN
+
 January 2022 to [Current]
 Software Engineer
 
@@ -21,42 +22,46 @@ Software Engineer
 - Mentored Senior and Principal engineers on infrastructure development and troubleshooting, microservice development, end-to-end testing, and unit testing using Hamcrest.
 
 ### Cognizant Digital Engineering Studios Irving, TX
+
 October 2020 to October 2021
 Associate Software Developer    
 
-- Trained and managed teams of developers and discussed issues in order to apply best practices and build quality Proof of Concept software with minimum 90% code coverage deployed to cloud services (Google Cloud Platform and AWS).
-- Revised and updated old code bases to modern development standards, resulting in improved functionality, reduced high severity security issues by as much as 45% in 1 week, and well-defined local, development, and production environments.
-- Collaborated with project managers to select ambitious, but realistic coding milestones on multiple software development projects.
+- Mentored junior developers on an individual level and managed teams of developers, discussing tickets with respect to applying OOP best practices and building quality Proof of Concept software with minimum 90% code coverage deployed to Google Cloud Platform and AWS clusters.
+- Modernized legacy code bases, significantly improving functionality, reducing high severity security issues by as much as 45% in 1 week, and introduced well-defined local, development, and production environments.
+- Worked closely with project managers to clearly communicate, refine, and prioritize product milestones, epics, and stories on multiple software development projects.
 - Translated verbal customer requirements into written use cases and testable development stories, regularly showcasing 93% completion on any use case across all projects with extremely high client satisfaction.
 - Wrote clean, clear, and well-tested code for multiple projects across multiple tech stacks (Angular, Java Spring Boot, .NET, C#, MySQL).
 - Configured multiple projects for cloud deployment using Jenkins, Docker, Git-Lab Pipelines, and Azure Pipelines.
 
+### Cognizant Technology Solutions Philadelphia, PA
+
+October 2019 to July 2020
+Software Developer    
+
+- Meticulously analyzed over 120 Healthcare processes for decommission, setting clear timelines, scoping requirements, and ensuring relevant PHI is properly handled and disposed of.
+- Met with Project Managers and Directors on a weekly basis to provide detailed project reports and milestone updates, displaying a high degree of clarity that had managers and directors requesting for my transfer back to their departments.
+- Collaborated on all stages of the systems development lifecycle from requirement gathering to production releases to identify, optimize, and decommission automated processes and ETL/Data workflows with 94% post-production releases having 0 issues.
+- Developed, maintained, and revised extensive program and system documentation, half of which was years out of date or missing entirely.
+- Developed and refined Bash scripts and Sybase TSQL stored procedures to handle complex data operations.
+
 ### Revature Arlington, TX
+
 August 2019 to October 2019
 .NET Software Developer, Full-Stack    
 
-- Built multiple full stack applications using HTML5, CSS3, JS, ASP .NET Web API, ASP .NET MVC, Razor Pages, C#, ADO .NET Entity Framework, xUnit, Azure Pipelines and Dev Ops, Docker, SQL, and Microsoft SQL Server.
+- Built multiple full stack applications using HTML5, CSS3, JS, ASP .NET Web API, ASP .NET MVC, Razor Pages, C#, ADO .NET Entity Framework, xUnit, Azure Pipelines, Azure Dev Ops, Docker, SQL, and Microsoft SQL Server.
 - Built well tested and Swagger documented RESTful services for each project.
 - Collaborated with design and project developers to understand project scope and offer elegant, creative and scalable solutions.
 - Provided high quality software solutions and services on time while consulting for multiple companies.
 
-### Cognizant Technology Solutions Philadelphia, PA
-October 2019 to July 2020
-Software Developer    
-
-- Meticulously analyzed over 120 Healthcare processes for decommission, setting clear timelines and scoping requirements.
-- Met with Project Managers and Directors on weekly basis to provide detailed project reports and milestone updates.
-- Collaborated on all stages of systems development lifecycle from requirement gathering to production releases to identify, optimize, and decommission automated processes and ETL/Data workflows with 94% post-production releases having 0 issues.
-- Developed, maintained, and revised extensive program and system documentation.
-- Developed and refined Bash scripts and Sybase TSQL stored procedures to handle complex data operations.
-
 ### Hydro One Telecom Etobicoke, ON
+
 August 2017 to August 2018
 Systems Analyst    
 
 - Promptly fulfilled over 20 help desk user requests per day involving live remote desktop support, user account management, and system administration duties across multiple applications.
-- Resolved over 1000 network monitoring discrepancies, identifying and resolving issues with node decommission scripts and significantly reducing false alarm reports across departments.
-- Python and Bash scripting, SSMS backup and mirroring, Microsoft server patching, Network management and monitoring with Zabbix, Network Node Manager, OVO, and Nagios.
+- Resolved over 1000 network monitoring discrepancies, identifying and resolving issues with re-engineered node decommission scripts that were considered lost and out of date and significantly reduced false alarm reports across departments.
+- Regularly simplified processes through Python and Bash scripting, handled SSMS backup, mirroring, Microsoft server patching, Network management and monitoring with Zabbix, Network Node Manager, OVO, and Nagios.
 
 ## Education
 
